@@ -1,0 +1,311 @@
+Master: Names and biographical information
+	playerID: Player ID
+	coachID: Coach ID
+	hofID: Hall of Fame ID
+	firstName: First name
+	lastName: Last name
+	nameNote: Note about player's name
+	nameGiven: Given name
+	nameNick: Nickname (multiple entries separated by "/")
+	height: Height in inches
+	weight: Weight in pounds
+	shootCatch: Shooting hand (catching hand for goalies)
+	legendsID: ID at Legends Of Hockey (www.legendsofhockey.net)
+	ihdbID: ID at the Internet Hockey Database
+	hrefID: ID at Hockey-Reference.com
+	firstNHL: First NHL season (2005-06 listed as "2005")
+	lastNHL: Last NHL season (2005-06 listed as "2005")
+	firstWHA: First WHA season (1975-76 listed as "1975")
+	lastWHA: Last WHA season (1975-76 listed as "1975")
+	pos: Position
+	birthYear: Year of birth
+	birthMon: Month of birth
+	birthDay: Day of birth
+	birthCountry: Country of birth
+	birthState: State or province of birth
+	birthCity: City of birth
+	deathYear: Year of death (9999 indicates "deceased", with no specific information known)
+	deathMon: Month of death
+	deathDay: Day of death
+	deathCountry: Country of death
+	deathState: State or province of death
+	deathCity: City of death
+Scoring: Scoring statistics
+	playerID: Player ID
+	year: Year (1920-21 listed as "1920")
+	stint: Stint (order of appearance in a season)
+	tmID: Team ID
+	IgID: League ID
+	pos: Position
+	GP: Games Played
+	G: Goals
+	A: Assists
+	Pts: Points
+	PIM: Penalty minutes
+	Power play goals
+	+/-: Plus/minus
+	PPG: Power play goals
+	PPA: Power play assists
+	SHG: Short hand goals
+	SHA: Short hand goals against
+	GWG: Game winning goals
+	GTG: Game tieing goals
+	SOG: Shots on goal
+	PostGP: Postseason games played
+	PostG: Postseason goals
+	PostA: Postseason assists
+	PostPts: Postseason points
+	PostPIM: Postseason penalty minutes
+	Post+/-: Postseason plus/minus
+	PostPPG: Postseason power play goals
+	PostPPA: Postseason power play assist
+	PostSHG: Postseason short hand goals
+	PostSHA: Postseason short hand goals against
+	PostGWG: Postseason game wining goals
+	PostSOG: Postseason shots on goal
+ScoringSC: Scoring for Stanley Cup finals, 1917-18 through 1925-26
+	playerID: Player ID
+	year: Year (1920-21 listed as "1920")
+	tmID: Team ID
+	lgID: League ID
+	pos: Position
+	GP: Games played
+	G: Goals
+	A: Assists
+	Pts: Points
+	PIM: Penalty minutes
+ScoringShootout: Scoring statistics for shootouts
+	playerID: Player ID
+	year: Year (2005-06 listed as "2005")
+	stint: Stint (order of appearance in a season)
+	tmID: Team ID
+	S: Shots
+	G: Goals
+	GDG: Game-deciding goals
+Goalies: Goaltending statistics
+	playerID: Player ID
+	year: Year (2005-06 listed as "2005")
+	stint: Stint (order of appearance in a season)
+	tmID: Team ID
+	lgID: League ID
+	GP: Games played
+	Min: Minutes
+	W: Wins
+	L: Losses
+	T/OL: Ties / overtime losses
+	ENG: Empty net goals
+	SHO: Shutouts
+	GA: Goals against
+	SA: Shots against
+	PostGP: Postseason games played
+	PostMin: Postseason minutes
+	PostW: Postseason wins
+	PostL: Postseason losses
+	PostT: Postseason ties
+	PostENG: Postseason empty net goals
+	PostSHO: Postseason shutouts
+	PostGA: Postseason goals against
+	PostSA: Postseason shots against
+GoaliesSC: Goaltending for Stanley Cup finals, 1917-18 through 1925-26
+	playerID: Player ID
+	year: Year (1920-21 listed as "1920")
+	tmID: Team ID
+	lgID: League ID
+	GP: Games played
+	Min: Minutes
+	W: Wins
+	L: Losses
+	T: Ties
+	SHO: Shutouts
+	GA: Goals against
+GoaliesShootout: Goaltending statistics for shootouts
+	playerID: Player ID
+	year: Year (2005-06 listed as "2005")
+	stint: Stint (order of appearance in a season)
+	tmID: Team ID
+	W: Wins
+	L: Losses
+	SA: Shots against
+	GA: Goals against
+AwardsPlayers: Player awards, trophies, postseason all-star teams
+	playerID: Player ID
+	award: Name of award or trophy
+	year: Year (2005-06 listed as "2005")
+	lgID: League ID
+	note: "shared" indicates an award shared with a teammate; "tie" indicates a tie with another player
+	pos: Position (for all-star teams)
+AwardsCoaches: Coaches awards, trophies, postseason all-star teams
+	coachID: Coach ID
+	award: Name of award or trophy
+	year: Year (2005-06 listed as "2005")
+	lgID: League ID
+	note: "tie" indicates a tie with another coach
+Coaches: Coaching statistics
+	coachID: Coach ID
+	year: Year (2005-06 listed as "2005")
+	tmID: Team ID
+	lgID: League ID
+	stint: Coaching order (1 for first coach, 2 for second, etc.)
+	notes: Miscellaneous comments
+	G: Games
+	W: Wins
+	L: Losses
+	T: Ties
+	PostG: Postseason games
+	PostW: Postseason wins
+	PostL: Postseason losses
+	PostT: Postseason ties
+Teams: Team regular season statistics
+	year: Year (2005-06 listed as "2005")
+	lgID: League ID
+	tmID: Team ID
+	franchID: Franchise ID
+	confID: Conference ID (see abbrev.csv for details)
+	divID: Division ID (see abbrev.csv for details)
+	rank: Final standing
+	playoff: Playoff result (see abbrev.csv for details)
+	G: Games
+	W: Wins
+	L: Losses
+	T: Ties
+	OTL: Overtime losses
+	Pts: Points
+	SoW: Shootout wins
+	SoL: Shootout losses
+	GF: Goals for
+	GA: Goals against
+	name: Full team name
+	PIM: Penalty minutes
+	BenchMinor: Bench minors (minutes)
+	PPG: Power play goals
+	PPC: Power play chances
+	SHA: Shorthanded goals against
+	PKG: Power play goals against
+	PKC: Penalty kill chances
+	SHF: Shorthanded goals for
+TeamsPost: Team postseason statistics
+	year: Year (2005-06 listed as "2005")
+	lgID: League ID
+	tmID: Team ID
+	G: Games
+	W: Wins
+	L: Losses
+	T: Ties
+	GF: Goals for
+	GA: Goals against
+	PIM: Penalty minutes
+	BenchMinor: Bench minors (minutes)
+	PPG: Power play goals
+	PPC: Power play chances
+	SHA: Shorthanded goals against
+	PKG: Power play goals against
+	PKC: Penalty kill chances
+	SHF: Shorthanded goals for
+TeamsSC: Team Stanley Cup finals statistics, 1917-18 through 1925-26
+	year: Year (1920-21 listed as "1920")
+	lgID: League ID
+	tmID: Team ID
+	G: Games
+	W: Wins
+	L: Losses
+	T: Ties
+	GF: Goals for
+	GA: Goals against
+	PIM: Penalty minutes
+TeamsHalf: First half / second half standings, 1917-18 through 1920-21
+	year: Year (1920-21 listed as "1920")
+	lgID: League ID
+	tmID: Team ID
+	half: First or second half of season
+	rank: Final standing for the half
+	G: Games
+	W: Wins
+	L: Losses
+	T: Ties
+	GF: Goals for
+	GA: Goals against
+TeamSplits: Team home/road and monthly splits
+	year: Year (1920-21 listed as "1920")
+	lgID: League ID
+	tmID: Team ID
+	hW: Home wins
+	hL: Home losses
+	hT: Home ties
+	hOTL: Home overtime losses
+	rW: Road wins
+	rL: Road losses
+	rT: Road ties
+	rOTL: Road overtime losses
+	SepW: September wins
+	SepL: September losses
+	SepT: September ties
+	SepOL: September overtime losses
+	OctW: October wins
+	OctL: October losses
+	OctT: October ties	
+	OctOL: October overtime losses
+	NovW: November wins
+	NovL: November losses
+	NovT: November ties
+	NovOL: November overtime losses
+	DecW: December wins
+	DecL: December losses
+	DecT: December ties
+	DecOL: December overtime losses
+	JanW: January wins
+	JanL: January losses
+	JanT: January ties
+	JanOL: January overtime losses
+	FebW: February wins
+	FebL: February losses
+	FebT: February ties
+	FebOL: February overtime losses
+	MarW: March wins
+	MarL: March losses
+	MarT: March ties
+	MarOL: March overtime losses
+	AprW: April wins
+	AprL: April losses
+	AprT: April ties
+	AprOL: April overtime losses
+TeamVsTeam: Team vs. team results
+	year: Year (1920-21 listed as "1920")
+	lgID: League ID
+	tmID: Team ID
+	oppID: Opponent ID
+	W: Wins
+	L: Losses
+	T: Ties
+	OTL: Overtime losses
+SeriesPost: Postseason series
+	year: Year (1920-21 listed as "1920")
+	round: Round (see abbrev.csv for details)
+	series: Series - used for the NHL designations (e.g., Series "A")
+	tmIDWinner: Team ID of winner
+	lgIDWinner: League ID of winner
+	tmIDLoser: Team ID of loser
+	lgIDLoser: League ID of loser
+	W: Wins for winner
+	L: Losses for winner
+	T: Ties
+	GoalsWinner: Goals for winner
+	GoalsLoser: Goals for loser
+	note: Note: EX = exhibition, ND = no decision, TG = total-goals series
+CombinedShutouts: List of combined shutouts.
+	year: Year (actual calendar year, not a season ID)
+	month: Month
+	date: Date
+	tmID: Team ID
+	oppID: Team ID of opponent
+	R/P: "R" for regular season, or "P" for postseason
+	IDgoalie1: ID of first goalie
+	IDgoalie2: ID of second goalie
+abbrev: Abbreviations used in Teams and SeriesPost tables
+	Type: type of abbreviation
+	Code: abbrevation
+	Fullname: full description for this abbreviation
+HOF: Hall of Fame information
+	year: Year elected
+	hofID: Hall of Fame ID
+	name: Name
+	category: Category (Player, Builder, Referee/Linesman)
