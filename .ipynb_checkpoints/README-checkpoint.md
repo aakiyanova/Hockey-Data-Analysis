@@ -18,4 +18,4 @@ Analyzing Professional Hockey in North America
     - notebook-8-coaches-data.ipynb: analysis of coach data
     
 - charts/
-    - saved charts as a results of the exploratory data analysis
+    - charts / exploratory data analysis
