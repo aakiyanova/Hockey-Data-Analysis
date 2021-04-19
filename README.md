@@ -4,6 +4,9 @@ Analyzing Professional Hockey in North America
 
 **Repo Directory**
 
+- Mario Lemieux deck & Mario Lemieux poster/
+    - summary of the project
+
 - data/
     - 20 datasets on Professional Hockey in North America
 
